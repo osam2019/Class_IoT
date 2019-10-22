@@ -24,8 +24,12 @@ Ref Link :  https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-d
 
 5. 재부팅
 
-## AVR ISP 사용법
+## AVR ISP 사용법 (Check)
     sudo avrdude -P /dev/ttyUSB0 -p atmega328p -c avrispv2
+*Arduino를 ISP를 이용하여 Firmware Upload시, ATmega328p인지, ATmega16u2인지 확인 필요!*
+    
+## AVR ISP Firmware Upload
+    sudo avrdude -P /dev/ttyUSB0 -p atmega328p -c avrispv2 -U flash:w:target_firmware.hex
 
 ## Arduino Uno Pinout
 Ref Link : https://www.circuito.io/blog/arduino-uno-pinout/
