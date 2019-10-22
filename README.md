@@ -1,5 +1,9 @@
 # Class_IoT
 
+## Team Building
+https://forms.gle/PVNjLcwVYaB1WpWj8
+- 팀원 수 : 제한 없음 (개인 가능)
+
 ## How to connect USB ISP with VirtualBox
 
 Ref Link :  https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-device-to-the-virtual-machine
