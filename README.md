@@ -27,6 +27,7 @@ Ref Link :  https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-d
 ## AVR ISP 사용법 (Check)
     sudo avrdude -P /dev/ttyUSB0 -p atmega328p -c avrispv2
 ### Arduino를 ISP를 이용하여 Firmware Upload시, ATmega328p인지, ATmega16u2인지 확인 필요!
+#### ICSP라고 적혀있는 커넥터가 328P 입니다. 이쪽으로 연결하여 펌웨어를 업로드 하시면 됩니다. 
     
 ## AVR ISP Firmware Upload
     sudo avrdude -P /dev/ttyUSB0 -p atmega328p -c avrispv2 -U flash:w:target_firmware.hex
