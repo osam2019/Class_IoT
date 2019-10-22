@@ -24,4 +24,5 @@ Ref Link :  https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-d
 
 5. 재부팅
 
-
+## AVR ISP 사용법
+    sudo avrdude -P /dev/ttyUSB0 -p atmega328p -c avrispv2
