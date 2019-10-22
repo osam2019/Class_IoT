@@ -26,3 +26,6 @@ Ref Link :  https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-d
 
 ## AVR ISP 사용법
     sudo avrdude -P /dev/ttyUSB0 -p atmega328p -c avrispv2
+
+## Arduino Uno Pinout
+Ref Link : https://www.circuito.io/blog/arduino-uno-pinout/
