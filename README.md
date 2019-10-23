@@ -36,7 +36,7 @@ https://forms.gle/PVNjLcwVYaB1WpWj8
 |24|국직굵직|이건철, 조정민, 정원석, 최성진|
 |25|설문미제출|이기정|
 
-## 자료 취합
+## 자료 취합 ( ~ 2019. 10.25(금) AM 08:00 KST 까지 업로드 받습니다. )
 https://drive.google.com/drive/folders/1ft68sSdJ1A6nfnwM7XJNP1Wtv3ka_iad?usp=sharing
 
 ### 필수 (취합하여 위 Git에 일괄 업로드 예정입니다.)
