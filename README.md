@@ -4,6 +4,16 @@
 https://forms.gle/PVNjLcwVYaB1WpWj8
 - 팀원 수 : 제한 없음 (개인 가능)
 
+## 자료 취합
+https://drive.google.com/drive/folders/1ft68sSdJ1A6nfnwM7XJNP1Wtv3ka_iad?usp=sharing
+
+### 필수 (취합하여 위 Git에 일괄 업로드 예정입니다.)
+1. 발표자료
+2. 시연 영상
+3. 개발과정(영상,사진 등)
+4. 코드
+
+
 ## How to connect USB ISP with VirtualBox
 
 Ref Link :  https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-device-to-the-virtual-machine
