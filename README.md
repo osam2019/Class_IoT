@@ -34,7 +34,7 @@ https://forms.gle/PVNjLcwVYaB1WpWj8
 |22|돈을 아껴써야조|박성현, 구경회|
 |23|태풍|김만철, 정현석|
 |24|국직굵직|이건철, 조정민, 정원석, 최성진|
-|25|설문미제출|이기정|
+|25|당신의 허리는 안녕하십니까? |이기정|
 
 ## 자료 취합 ( ~ 2019. 10.25(금) AM 08:00 KST 까지 업로드 받습니다. )
 https://drive.google.com/drive/folders/1ft68sSdJ1A6nfnwM7XJNP1Wtv3ka_iad?usp=sharing
