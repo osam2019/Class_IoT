@@ -2,6 +2,9 @@
 
 #### Pull Request / Issue 환영합니다.
 
+## 투표
+https://forms.gle/xZmedEGWHdJHbvDC9
+
 ## Team Building
 https://forms.gle/PVNjLcwVYaB1WpWj8
 - 팀원 수 : 제한 없음 (개인 가능)
