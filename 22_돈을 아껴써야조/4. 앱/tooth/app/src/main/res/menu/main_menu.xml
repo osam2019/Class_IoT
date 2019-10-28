@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/homeMenu"
+    android:title="홈 화면" />
+<item
+    android:id="@+id/accountBook"
+    android:title="지출 내역" />
+</menu>
