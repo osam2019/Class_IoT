@@ -1,0 +1,127 @@
+#include <SoftwareSerial.h>
+
+ 
+
+#define RXD 8
+
+#define TXD 7
+
+ 
+
+SoftwareSerial BTSerial(RXD, TXD);
+
+ 
+
+int trig = 2;           //yellow line
+
+int echo = 3;           //orange line
+
+float duration;
+
+float distance;
+
+char cha;
+
+int depth;
+
+float percent;
+
+ 
+
+void setup() 
+
+{
+
+  BTSerial.begin(9600);
+
+  pinMode(trig,OUTPUT);
+
+  pinMode(echo,INPUT);
+
+ 
+
+  Serial.begin(9600);
+
+}
+
+ 
+
+void loop() 
+
+{ 
+
+  if (BTSerial.available())
+
+  {
+
+    cha = BTSerial.read();
+
+    if (cha == 109)             //m
+
+    {
+
+      depth = ultrasonic_read();
+
+      BTSerial.println(depth);
+
+ 
+
+    }
+
+ 
+
+    else if (cha == 115)          //s
+
+    {
+
+      while (true)
+
+      {
+
+        distance = ultrasonic_read();
+
+        percent = (1 - distance / depth) * 100;
+
+        BTSerial.print(percent, 0);
+
+        BTSerial.println("%");
+
+ 
+
+        
+
+        delay(1000);
+
+ 
+
+        if (BTSerial.read() == 98)          //b
+
+          break;
+
+      }
+
+    }
+
+  }
+
+}
+
+ 
+
+float ultrasonic_read()
+
+{
+
+  digitalWrite(trig,HIGH);
+
+  delay(10);
+
+  digitalWrite(trig,LOW);
+
+  float dur = pulseIn(echo,HIGH);     //pulseIn함수의 단위는 ms(마이크로 세컨드)
+
+  float dis = ((34000*dur)/1000000)/2;       //dis 단위는 cm
+
+  return dis;
+
+}
